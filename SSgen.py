@@ -1,9 +1,9 @@
   
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
-print ("")
-print ("")
-print("""processing.......""")
+print.white.italic ("Wyline String Alıcıya Hoşgeldiniz...")
+print.bold.blue ("SupportGroup:@wylinesupport")
+print.red.italic ("""Biraz Bekleyin...""")
 
 API_KEY = '1754367'
 API_HASH = "231b8cc6cca12ee51a85cf543321f476"
@@ -12,12 +12,12 @@ while True:
    with TelegramClient(StringSession(), API_KEY, API_HASH) as client:
       print("")
       session = client.session.save()
-      client.send_message("me", f"**Here is your TELEGRAM STRING SESSION**👇\n(tap to copy) \n\n `{session}`\n\n\n ** Join to Win! >> @Royal_Giveaway**")
-      print("You Telegram String session has been successfully stored in your Telegram Saved Messages. Please check your Saved Messages ")
+      client.send_message("me", f"**TELEGRAM STRING SESSION**👇\n(tap to copy) \n\n `{session}`\n\n\n ** Join to Win! >> @wylinesupport**")
+      print("You Telegram String session Telegram Kayitli Mesajlariniza Gelmiştir Oraya Bakin  ")
       print("Store it safe!!")
   except:
    print ("")
-   print ("Wrong phone number \n make sure its with correct  country code")
+   print ("Wrong telefon numaraniz \n Gelen Kodu Buraya Atınız...")
    print ("")
    continue
   break
