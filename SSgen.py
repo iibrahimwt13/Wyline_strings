@@ -1,9 +1,9 @@
   
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
-print.white.italic ("")
-print.bold.blue ("")
-print.red.italic (""" Wyline String Alıcıya Hoşgeldiniz SupportGroup:@wylinesupport""")
+print ("")
+print ("")
+print.blue.italic (""" Wyline String Alıcıya Hoşgeldiniz SupportGroup:@wylinesupport""")
 
 API_KEY = '1754367'
 API_HASH = "231b8cc6cca12ee51a85cf543321f476"
